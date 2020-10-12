@@ -12,7 +12,7 @@ def format_text(initial_text):
             if not counter == 11:
                 final_string = final_string + '" & vbCrLf _'
             else:
-                final_string = final_string + '\n\n' + 'strKomenda1 = strKomenda1 & vbCrLf _ ' 
+                final_string = final_string + '"\n\n' + 'strKomenda1 = strKomenda1 & vbCrLf _ ' 
                 counter = 0
             counter = counter + 1
     if len(array) > 1:
